@@ -20,7 +20,7 @@
         <Label Content="Прошу принять меня в КГАПОУ Пермский авиационный техникум им. А. Д. Швецова" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
         <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,67,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
         <CheckBox Content="по очной форме обучения" HorizontalAlignment="Left" Margin="22,91,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="по заочной форме обучения (обучение только на платной основе)" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <CheckBox Content="по заочной форме обучения (обучение только на платной основе)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,106,0,0"/>
         <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" Margin="20,126,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red"/>
         <CheckBox Content="за счет бюджета" HorizontalAlignment="Left" Margin="22,165,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="по договору (платно)" HorizontalAlignment="Left" Margin="22,150,0,0" VerticalAlignment="Top"/>
