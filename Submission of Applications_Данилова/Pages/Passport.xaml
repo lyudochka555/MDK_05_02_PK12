@@ -1,0 +1,55 @@
+﻿<Page x:Class="Submission_of_Applications_Данилова.Pages.Passport"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Submission_of_Applications_Данилова.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="800"
+      Title="Passport">
+
+    <Grid Background="#F8F9FA">
+        <Grid Margin="0,0,0,540" Background="White" >
+            <Image HorizontalAlignment="Left" Height="40" Margin ="10,10,0,0" VerticalAlignment="Top" Width="40" Source="/Submission of Applications_Данилова;component/img/logo.png"/>
+            <Label Content="Электронная приемная компания" FontSize="19" HorizontalAlignment="Left" Margin="55,1,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="Пермского авиационного техникума им. А. Д. Швецова" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid Margin="0,60,0,-0.4">
+            <Label Content="Серия и номер паспорта:" HorizontalAlignment="Left" Margin="10,254,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.519,2.234"/>
+            <TextBox Height="24" Margin="10,285,552,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Label Content="Прикрепите сканы страниц документа об образовании с Ф.И.О., наименованием образовательной организации и оценками" HorizontalAlignment="Left" Margin="10,472,0,0" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="10,531,87,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <Button Content="Продолжить" HorizontalAlignment="Right" Margin="0,0,10,5" VerticalAlignment="Bottom" Width="135" Height="25"/>
+            <Button Content="Выбрать" HorizontalAlignment="Right" Margin="0,0,10,34" VerticalAlignment="Bottom" Width="72" Height="25"/>
+            <TextBox Height="24" Margin="275,285,287,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Label Content="(Формат документа должен быть PNG, JPEG или PDF, а максимальный размер каждого файла 5 МБ)" HorizontalAlignment="Left" Margin="20,503,0,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="10" Foreground="Red" Width="473"/>
+            <Label Content="Паспортные данные:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="Фамилия:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="10,67,552,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Label Content="Имя:" HorizontalAlignment="Left" Margin="275,41,0,0" VerticalAlignment="Top" Width="125"/>
+            <Label Content="Отчестов:" HorizontalAlignment="Left" Margin="540,41,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="275,67,287,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <TextBox Height="24" Margin="540,67,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Label Content="Дата рождения:" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="10,122,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <Label Content="Гражданство:" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="10,177,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <Label Content="Место рождения:" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="10,230,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <TextBox Height="24" Margin="540,285,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Label Content="Дата выдачи:" HorizontalAlignment="Left" Margin="275,0,0,0" VerticalAlignment="Center" Width="125"/>
+            <Label Content="Код подразделения:" HorizontalAlignment="Left" Margin="540,0,0,0" VerticalAlignment="Center" Width="125"/>
+            <Label Content="Кем выдан:" HorizontalAlignment="Left" Margin="10,314,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="10,340,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <Label Content="Адрес по прописке:" HorizontalAlignment="Left" Margin="10,369,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="10,395,287,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <TextBox Height="24" Margin="540,395,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+            <Label Content="Район:" HorizontalAlignment="Left" Margin="540,369,0,0" VerticalAlignment="Top" Width="125"/>
+            <Label Content="Адрес проживания фактический:" HorizontalAlignment="Left" Margin="10,424,0,0" VerticalAlignment="Top" Width="204"/>
+            <TextBox Height="24" Margin="10,450,287,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" />
+            <Label Content="Район:" HorizontalAlignment="Left" Margin="540,424,0,0" VerticalAlignment="Top" Width="125"/>
+            <TextBox Height="24" Margin="540,450,22,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Page>
